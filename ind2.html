@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title> Page 2 </title>
+        <link
+            rel="icon"
+            href="images/icon.ico"
+            type="image/x-icon"/>
+    </head>
+    </head>
+<body>
+<div style="text-align:center">
+<input type="button" value="Play / Pause" onclick="playPause()">
+<input type="button" value="Big" onclick="makeBig()">
+<input type="button" value="Small" onclick="makeSmall()">
+<input type="button" value="Normal" onclick="makeNormal()">
+<br><br>
+<video id="vid1" width="420">
+    <source src="video/vid1.mp4" type="video/mp4">
+</video>
+</div>
+
+<script lang="javascript">
+    var myvid =document.getElementById("vid1");
+    function playPause(){
+        if (myvid.paused)
+        myvid.play();
+    else
+    myvid.pause();
+    }
+    function makeBig(){
+        myvid.width=560;
+    }
+    function makeSmall(){
+        myvid.width=300;
+    }
+    function makeNormal(){
+        myvid.width=420;
+    }
+</script>
+</body>
