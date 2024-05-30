@@ -1,0 +1,51 @@
+.page2 {
+    background-color: white;
+    transition-duration: 0.4s;
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.page2:hover{
+    background-color: #04AA6D; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);    
+}
+.page3 {
+    background-color: rgb(255, 255, 255);
+    transition-duration: 0.2s;
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(240, 14, 164);
+    border-radius: 12px;
+    cursor: pointer;
+}
+.page3:hover{
+    background-color: #ff006a; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);    
+}
+
+
+    .head {
+    background-color: white;
+    font-size: 200%;
+    text-align: center;
+    border: 1px solid rgb(255, 0, 0);
+    width: 550px ;
+    height: 50px ;
+    color: rgb(0, 0, 0);
+}
+.enter{
+    font-family: verdana;
+}
+.page3head{
+    width: 550px ;
+    height: 50px ;
+    color: black;
+    font-size: 49x;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+.instahead{
+    width: 150px;
+}
+.inshead{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+.text1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+}
+.text2{
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+}
